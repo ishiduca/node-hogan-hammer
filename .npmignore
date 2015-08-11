@@ -1,0 +1,8 @@
+.DS_Store
+*~
+*.swp
+.git*
+.npmignore
+.travis.yml
+node_modules/
+npm-debug.log

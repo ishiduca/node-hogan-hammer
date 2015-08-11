@@ -1,0 +1,32 @@
+{
+  "name": "hogan-hammer",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape t/*.js t/*/*.js",
+    "testling": "browserify t/b/*.js | testling"
+  },
+  "keywords": [
+    "template",
+    "hogan.js",
+    "hoganjs",
+    "hogan",
+    "stream"
+  ],
+  "author": "ishiduca@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "deepmerge": "^0.2.10",
+    "hogan.js": "^3.0.2",
+    "inherits": "^2.0.1",
+    "mime": "^1.3.4",
+    "readable-stream": "^2.0.2"
+  },
+  "devDependencies": {
+    "duplexer2": "0.0.2",
+    "slows": "^0.1.2",
+    "tape": "^4.0.3",
+    "through2": "^2.0.0"
+  }
+}
