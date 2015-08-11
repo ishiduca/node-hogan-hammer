@@ -19,7 +19,7 @@ http.createServer(function (req, res) {
     ws.write(url.parse(req.url, true).query || {})
     ws.end({user: 'Fooman'})
 
-    fs.createReadStream(template).once('error').pipe(ham).pipe(res)
+    fs.createReadStream(template).once('error', onError).pipe(ham).pipe(res)
 
     function onError (err) {
         res.statusCode = 500
