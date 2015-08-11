@@ -21,6 +21,7 @@ function Hammer () {
     this.ws.once('error', function (err) {
         me.emit('error', err)
     })
+
     //this.ws.once('finish', this.render.bind(this))
     this.ws.once('finish', function () {
         me.render()
