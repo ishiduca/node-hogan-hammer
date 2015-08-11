@@ -1,7 +1,7 @@
 {
   "name": "hogan-hammer",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "Hogan.js templating with stream",
   "main": "index.js",
   "scripts": {
     "test": "tape t/*.js t/*/*.js",
@@ -23,7 +23,11 @@
     "mime": "^1.3.4",
     "readable-stream": "^2.0.2"
   },
-  "devDependencies": {
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ishiduca/node-hogan-hammer.git"
+  },
+  "}devDependencies": {
     "duplexer2": "0.0.2",
     "slows": "^0.1.2",
     "tape": "^4.0.3",
